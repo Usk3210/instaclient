@@ -17,7 +17,7 @@ function PostView() {
         });
     }
     useEffect(() => {
-        axios.get('https://anantha-1998-mern-app.herokuapp.com/')
+        axios.get('https://deluxe-taiyaki-703f2b.netlify.app/')
             .then(function (response) {
                 setState(response.data.reverse());
                 console.log(response);
